@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --darkBlueIntro: #1c2431;
+    --darkBlueMainBG: #181f2a;
+    --darkBlueFooter: #0b1523;
+    --darkBlueTestimonials: #202a3c;
+
+    --cyan: #65e2d9;
+    --blue: #339ecc;
+    --lightRed: #ff4242;
+
+    --white: #ffffff;
+
+    --fontFamSpecial: "Raleway", sans-serif;
+    --fontFamBody: "Open Sans", sans-serif;
+}
+
+body {
+    background: var(--darkBlueIntro);
+    font-family: var(--fontFamBody);
+    color: var(--white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+footer,
+button {
+    font-family: var(--fontFamSpecial);
+}
