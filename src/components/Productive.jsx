@@ -29,13 +29,13 @@ const Productive = () => {
           </div>
           <a
             href="#"
-            className="text-[var(--cyan)] pb-2 border-b border-[var(--cyan)]"
+            className="text-[var(--cyan)] pb-2 border-b border-[var(--cyan)] text-sm group"
           >
             See how Fylo Works
             <img
               src={iconArrow}
               alt="arrow"
-              className="inline-block w-[20px]"
+              className="inline-block w-[20px] ml-[2px] group-hover:ml-[8px] duration-100"
             />
           </a>
         </div>

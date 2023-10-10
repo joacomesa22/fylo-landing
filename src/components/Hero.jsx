@@ -20,7 +20,7 @@ const Hero = () => {
             family, and co-workers.
           </p>
         </div>
-        <button className="px-20 py-4 bg-[var(--blue)] rounded-full font-bold">
+        <button className="px-20 py-4 bg-gradient-to-r from-[var(--cyan)] to-[var(--blue)] rounded-full font-bold hover:brightness-110 duration-200">
           Get Started
         </button>
       </div>
