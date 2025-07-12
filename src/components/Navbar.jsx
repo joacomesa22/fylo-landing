@@ -10,7 +10,7 @@ const Navbar = () => {
             <img src={logo} alt="logo" />
           </a>
         </div>
-        <nav className="absolute left-1/2 transform -translate-x-1/2">
+        <nav>
           <ul className="flex gap-5 justify-center items-center text-sm">
             <li className="w-[60px] text-center">
               <a href="#" className="hover:font-bold">
