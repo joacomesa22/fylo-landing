@@ -10,20 +10,20 @@ const Navbar = () => {
             <img src={logo} alt="logo" />
           </a>
         </div>
-        <nav className="flex-1 flex justify-center">
+        <nav>
           <ul className="flex gap-5 justify-center items-center text-sm">
-            <li className="w-[60px] text-center">
-              <a href="#" className="hover:font-bold transition-all duration-200">
+            <li>
+              <a href="#" className="hover:font-bold">
                 Features
               </a>
             </li>
-            <li className="w-[50px] text-center">
-              <a href="#" className="hover:font-bold transition-all duration-200">
-                Teams
+            <li>
+              <a href="#" className="hover:font-bold">
+                Team
               </a>
             </li>
-            <li className="w-[50px] text-center">
-              <a href="#" className="hover:font-bold transition-all duration-200">
+            <li>
+              <a href="#" className="hover:font-bold">
                 Sign In
               </a>
             </li>
