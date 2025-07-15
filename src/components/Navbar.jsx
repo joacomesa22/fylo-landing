@@ -10,26 +10,29 @@ const Navbar = () => {
             <img src={logo} alt="logo" />
           </a>
         </div>
-        <div className="flex items-center gap-6">
-          <nav>
-            <ul className="flex gap-5 justify-center items-center text-sm">
-              <li className="w-[60px] text-center">
-                <a href="#" className="hover:font-bold">
-                  Features
-                </a>
-              </li>
-              <li className="w-[50px] text-center">
-                <a href="#" className="hover:font-bold">
-                  Teams
-                </a>
-              </li>
-              <li className="w-[50px] text-center">
-                <a href="#" className="hover:font-bold">
-                  Sign In
-                </a>
-              </li>
-            </ul>
-          </nav>
+        <nav className="flex-1 flex justify-center">
+          <ul className="flex gap-5 justify-center items-center text-sm">
+            <li className="w-[60px] text-center">
+              <a href="#" className="hover:font-bold transition-all duration-200">
+                Features
+              </a>
+            </li>
+            <li className="w-[50px] text-center">
+              <a href="#" className="hover:font-bold transition-all duration-200">
+                Teams
+              </a>
+            </li>
+            <li className="w-[50px] text-center">
+              <a href="#" className="hover:font-bold transition-all duration-200">
+                Sign In
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div className="flex items-center">
+          <button className="px-6 py-2 bg-gradient-to-r from-[var(--cyan)] to-[var(--blue)] rounded-full font-bold text-sm hover:brightness-110 transition-all duration-200">
+            Contact Us
+          </button>
         </div>
       </div>
     </header>
