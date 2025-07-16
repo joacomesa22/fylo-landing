@@ -10,7 +10,7 @@ const Navbar = () => {
             <img src={logo} alt="logo" />
           </a>
         </div>
-        <nav>
+        <nav className="flex-1 flex justify-center">
           <ul className="flex gap-5 justify-center items-center text-sm">
             <li>
               <a href="#" className="hover:font-bold">
@@ -29,6 +29,11 @@ const Navbar = () => {
             </li>
           </ul>
         </nav>
+        <div>
+          <button className="px-6 py-2 bg-gradient-to-r from-[var(--cyan)] to-[var(--blue)] rounded-full font-bold text-sm hover:brightness-110 duration-200">
+            Contact Us
+          </button>
+        </div>
       </div>
     </header>
   );
